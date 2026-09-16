@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gym Check-In - Shawn's Page</title>
+</head>
+<body>
+
+<header>
+<h1>Gym Check-In</h1>
+<p>Since I like going to the gym, I made this little check in form. It doesn't submit anywhere, it's just for the form input types requirement.</p>
+</header>
+
+<nav>
+<a href="index.html">Back to Home Page</a>
+</nav>
+
+<main>
+
+<section>
+<h2>Fill this out</h2>
+
+<form>
+
+<label for="name">Your Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+<label for="workout">Workout Type:</label><br>
+<select id="workout" name="workout">
+	<option value="push">Push Day</option>
+	<option value="pull">Pull Day</option>
+	<option value="legs">Leg Day</option>
+	<option value="cardio">Cardio</option>
+	<option value="rest">Rest Day</option>
+</select><br><br>
+
+<p>How are you feeling today?</p>
+<input type="radio" id="energized" name="feeling" value="energized">
+<label for="energized">Energized</label><br>
+<input type="radio" id="tired" name="feeling" value="tired">
+<label for="tired">Tired</label><br>
+<input type="radio" id="sore" name="feeling" value="sore">
+<label for="sore">Sore</label><br>
+<input type="radio" id="motivated" name="feeling" value="motivated">
+<label for="motivated">Motivated</label><br><br>
+
+<p>Equipment you used:</p>
+<input type="checkbox" id="dumbbells" name="equipment" value="dumbbells">
+<label for="dumbbells">Dumbbells</label><br>
+<input type="checkbox" id="barbell" name="equipment" value="barbell">
+<label for="barbell">Barbell</label><br>
+<input type="checkbox" id="treadmill" name="equipment" value="treadmill">
+<label for="treadmill">Treadmill</label><br>
+<input type="checkbox" id="bands" name="equipment" value="bands">
+<label for="bands">Resistance Bands</label><br><br>
+
+<label for="duration">How many minutes did you workout:</label><br>
+<input type="number" id="duration" name="duration" placeholder="ex. 45"><br><br>
+
+<label for="date">Date:</label><br>
+<input type="date" id="date" name="date"><br><br>
+
+<input type="submit" value="Check In">
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>made by Shawn Chavez - CCAPDEV Hands On 1</p>
+</footer>
+
+</body>
+</html>

@@ -39,3 +39,43 @@ main {
 	margin: 20px auto;
 	padding: 0 15px;
 }
+h2 {
+	border-bottom: 2px solid #ffcc00;
+	padding-bottom: 5px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+table, th, td {
+	border: 1px solid #999;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #1c1c1c;
+	color: white;
+}
+
+img {
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+audio {
+	margin-top: 10px;
+	width: 100%;
+	max-width: 400px;
+}
+
+iframe {
+	margin-top: 10px;
+	border: none;
+}
